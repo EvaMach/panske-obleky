@@ -63,7 +63,8 @@ h1.site-title span {
 }
 
 .product__colors {
-  margin-left: -150px;
+  margin-left: -50px;
+  text-align: center;
 }
 .colors {
   display: flex;
@@ -90,7 +91,7 @@ h1.site-title span {
 }
 
 .color-box--red {
-  background-color: rgb(129, 61, 61);
+  background-color: rgb(140, 43, 43);
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
@@ -110,4 +111,6 @@ h1.site-title span {
   border-radius: 30px;
   border: 1px solid #ffffff;
   width: 10rem;
+  height: 2.5rem;
+  margin-top: 5rem;
 }
