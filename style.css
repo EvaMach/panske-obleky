@@ -65,3 +65,31 @@ h1.site-title span {
 .product__colors {
   margin-left: 50px;
 }
+.color-box {
+  background-color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  box-shadow: 0px -1px 10px -3px #ffffff;
+}
+
+.color-box--black {
+  background-color: rgb(0, 0, 0);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.color-box--red {
+  background-color: rgb(129, 61, 61);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.color-box--blue {
+  background-color: rgb(156, 213, 239);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
