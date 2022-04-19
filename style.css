@@ -27,7 +27,7 @@ body {
 
 header {
   padding-top: 4rem;
-  background-image: url(img/suit.jpg), url(img/bg.jpg);
+  background-image: url(img/suit.jpeg), url(img/bg.jpeg);
   background-position: center, center;
   background-repeat: no-repeat, repeat-x;
   height: 360px;
