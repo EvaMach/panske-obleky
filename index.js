@@ -13,3 +13,11 @@ document.querySelector('.colors').innerHTML += `
             <div class="color-box color-box--blue"></div>
             <p class="color__name">nebesky modrá</p>
           </div>`
+
+const colors = document.querySelectorAll('.color-box')
+
+for (let i = 0; i < colors.length; i++) {
+    colors[i].addEventListener('click', () => {
+        shirt.style = `fill : ${getComputedStyle(colors[i]).backgroundColor}`;
+});
+};
