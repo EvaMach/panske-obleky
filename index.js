@@ -1,4 +1,4 @@
-const shirt = document.querySelector('svg')
+const shirt = document.querySelector('svg');
 
 document.querySelector('.colors').innerHTML += `
 <div class="color">
@@ -12,12 +12,20 @@ document.querySelector('.colors').innerHTML += `
           <div class="color">
             <div class="color-box color-box--blue"></div>
             <p class="color__name">nebesky modrá</p>
-          </div>`
+          </div>`;
 
-const colors = document.querySelectorAll('.color-box')
+const colors = document.querySelectorAll('.color-box');
 
 for (let i = 0; i < colors.length; i++) {
-    colors[i].addEventListener('click', () => {
-        shirt.style = `fill : ${getComputedStyle(colors[i]).backgroundColor}`;
-});
+  colors[i].addEventListener('click', () => {
+    shirt.style = `fill : ${getComputedStyle(colors[i]).backgroundColor}`;
+  });
+}
+
+const productOrder = () => {
+  const productContainerElm = document.querySelector('.product');
+  productContainerElm.textContent = 'Objednáno!';
 };
+
+const orderIt = document.querySelector('#product__order');
+orderIt.addEventListener('click', productOrder);
