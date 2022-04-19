@@ -23,6 +23,7 @@ body {
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  height: 300px;
 }
 
 header {
@@ -48,6 +49,7 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
 }
 
 .product__image {
@@ -58,4 +60,8 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.product__colors {
+  margin-left: 50px;
 }
